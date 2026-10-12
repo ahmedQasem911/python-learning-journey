@@ -55,7 +55,7 @@ python-learning-journey/
 
 ## 📈 Progress
 
-- [ ] 01 — Intro to Python
+- [x] 01 — Intro to Python
 - [ ] 02 — Flow Control
 - [ ] 03 — Lists
 - [ ] 04 — Functions

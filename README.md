@@ -56,7 +56,7 @@ python-learning-journey/
 ## 📈 Progress
 
 - [x] 01 — Intro to Python
-- [ ] 02 — Flow Control
+- [x] 02 — Flow Control
 - [ ] 03 — Lists
 - [ ] 04 — Functions
 - [ ] 05 — Tuples, Dictionaries, & Sets

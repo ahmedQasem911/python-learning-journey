@@ -57,7 +57,7 @@ python-learning-journey/
 
 - [x] 01 — Intro to Python
 - [x] 02 — Flow Control
-- [ ] 03 — Lists
+- [x] 03 — Lists
 - [ ] 04 — Functions
 - [ ] 05 — Tuples, Dictionaries, & Sets
 - [ ] 06 — Modules & Dependencies

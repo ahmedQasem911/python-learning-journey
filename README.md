@@ -58,7 +58,7 @@ python-learning-journey/
 - [x] 01 — Intro to Python
 - [x] 02 — Flow Control
 - [x] 03 — Lists
-- [ ] 04 — Functions
+- [x] 04 — Functions
 - [ ] 05 — Tuples, Dictionaries, & Sets
 - [ ] 06 — Modules & Dependencies
 - [ ] 07 — Errors & Exception Handling
@@ -66,8 +66,3 @@ python-learning-journey/
 - [ ] 09 — Strings & List Operations
 - [ ] 10 — Object-Oriented Programming
 - [ ] 11 — Working With Private APIs
-
----
-
-*This is a personal learning repository, not an official Mimo project. The projects and practice exercises published here are my own work.*
-

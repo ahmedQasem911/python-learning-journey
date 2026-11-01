@@ -59,7 +59,7 @@ python-learning-journey/
 - [x] 02 — Flow Control
 - [x] 03 — Lists
 - [x] 04 — Functions
-- [ ] 05 — Tuples, Dictionaries, & Sets
+- [x] 05 — Tuples, Dictionaries, & Sets
 - [ ] 06 — Modules & Dependencies
 - [ ] 07 — Errors & Exception Handling
 - [ ] 08 — Working With APIs

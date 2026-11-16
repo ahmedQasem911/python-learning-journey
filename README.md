@@ -61,7 +61,7 @@ python-learning-journey/
 - [x] 04 — Functions
 - [x] 05 — Tuples, Dictionaries, & Sets
 - [x] 06 — Modules & Dependencies
-- [ ] 07 — Errors & Exception Handling
+- [x] 07 — Errors & Exception Handling
 - [ ] 08 — Working With APIs
 - [ ] 09 — Strings & List Operations
 - [ ] 10 — Object-Oriented Programming

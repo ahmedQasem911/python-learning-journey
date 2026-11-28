@@ -8,16 +8,19 @@
 
 import random
 
+LINE_WIDTH = 50
+
+print("=" * LINE_WIDTH)
+print("Rock, Paper, Scissors (Best of Three)".center(LINE_WIDTH))
+print("=" * LINE_WIDTH)
+
 player_wins = 0
 computer_wins = 0
 
 choices = ["rock", "paper", "scissors"]
 
-print(
-    "------------------------- Let's play rock, paper, or scissors -------------------------"
-)
-
 while player_wins < 2 and computer_wins < 2:
+    print()
     player_choice = input("Choose rock, paper, or scissors: ").strip().lower()
     if player_choice not in choices:
         print("Invalid choice. Please try again.")
@@ -46,7 +49,9 @@ while player_wins < 2 and computer_wins < 2:
     else:
         print("It's a tie")
 
+    print("=" * LINE_WIDTH)
     print(f"Current Score - Player: {player_wins}, Computer: {computer_wins}")
+    print()
 
 if player_wins > computer_wins:
     print("Congratulations! You won.")

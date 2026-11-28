@@ -4,6 +4,13 @@
 # favorite color, then responds to each answer.
 # ----------------------------------------------------------
 
+LINE_WIDTH = 50
+
+print("=" * LINE_WIDTH)
+print("Intro Chatbot".center(LINE_WIDTH))
+print("=" * LINE_WIDTH)
+print()
+
 name = input("Hello! What is your name? ")
 print(f"Nice to meet you, {name}!")
 

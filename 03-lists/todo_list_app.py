@@ -13,7 +13,7 @@
 LINE_WIDTH = 50
 
 print("=" * LINE_WIDTH)
-print("TO-DO LIST APP".center(LINE_WIDTH))
+print("To-Do List App".center(LINE_WIDTH))
 print("=" * LINE_WIDTH)
 
 todo_list = []
@@ -25,7 +25,7 @@ while True:
     print("-" * LINE_WIDTH)
 
     if len(todo_list) == 0:
-        print("  (Your to-do list is empty)")
+        print("(Your to-do list is empty)".center(LINE_WIDTH))
     else:
         index = 1
         for task in todo_list:

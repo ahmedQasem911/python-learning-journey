@@ -28,7 +28,7 @@ from datetime import datetime
 LINE_WIDTH = 50
 
 print("=" * LINE_WIDTH)
-print("PERSONAL INFORMATION".center(LINE_WIDTH))
+print("Personal Information Checker".center(LINE_WIDTH))
 print("=" * LINE_WIDTH)
 print()
 
@@ -40,7 +40,7 @@ user_favorite_number = int(input("Enter your favorite number: "))
 
 print()
 print("=" * LINE_WIDTH)
-print("USER PROFILE".center(LINE_WIDTH))
+print("User Profile".center(LINE_WIDTH))
 print("=" * LINE_WIDTH)
 print()
 
@@ -53,7 +53,7 @@ print(f"\nAge data type: {type(user_age)}")
 
 print()
 print("=" * LINE_WIDTH)
-print("ELIGIBILITY RESULTS".center(LINE_WIDTH))
+print("Eligibility Results".center(LINE_WIDTH))
 print("=" * LINE_WIDTH)
 print()
 
@@ -64,7 +64,7 @@ print(f"Different from 30: {user_age != 30}")
 
 print()
 print("-" * LINE_WIDTH)
-print("EXTRA CHALLENGE".center(LINE_WIDTH))
+print("Extra Challenge".center(LINE_WIDTH))
 print("-" * LINE_WIDTH)
 print()
 

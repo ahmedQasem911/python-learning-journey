@@ -7,10 +7,15 @@
 # at the end.
 # ----------------------------------------------------------
 
-print("------------------------- Trivia Time -------------------------")
+LINE_WIDTH = 50
+
+print("=" * LINE_WIDTH)
+print("Trivia Time".center(LINE_WIDTH))
+print("=" * LINE_WIDTH)
 
 player_score = 0
 
+print()
 print("1. Which planet is known as the Red Planet? (Mars, Venus)")
 
 answer = input("Enter your answer: ").lower()
@@ -24,6 +29,7 @@ elif answer == "venus":
 else:
     print("Wrong input!")
 
+print()
 print(
     "2. Which animal is the largest mammal in the world? (Blue whale, African elephant)"
 )
@@ -39,7 +45,7 @@ elif answer == "african elephant":
 else:
     print("Wrong input!")
 
-
+print()
 print("3. Which country was the birthplace of the Renaissance? (Italy, France)")
 
 answer = input("Enter your answer: ").lower()

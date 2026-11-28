@@ -7,7 +7,11 @@
 # or rejected if the score is below 75.
 # ----------------------------------------------------------
 
-print("------------------------- HR Program -------------------------")
+LINE_WIDTH = 50
+
+print("=" * LINE_WIDTH)
+print("HR Candidate Screening".center(LINE_WIDTH))
+print("=" * LINE_WIDTH)
 
 assessment_score = int(input("Enter candidate's assessment score: "))
 location = input("Enter candidate's location: ").lower()
@@ -16,7 +20,7 @@ if (location == "us" or location == "canada") and assessment_score >= 75:
     print(f"Your assessment score is {assessment_score}/100! You're hired!")
 elif location != "us" and location != "canada" and assessment_score >= 75:
     print(
-        f"Apologies, you are based in {location} but this role requires you to be based in the US/Canada. Would you be interested in another role?"
+        f"Apologies, you are based in {location.capitalize()} but this role requires you to be based in the US/Canada. Would you be interested in another role?"
     )
 else:
     print(

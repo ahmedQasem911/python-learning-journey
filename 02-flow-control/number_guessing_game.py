@@ -26,7 +26,7 @@
 LINE_WIDTH = 50
 
 print("=" * LINE_WIDTH)
-print("NUMBER GUESSING GAME".center(LINE_WIDTH))
+print("Number Guessing Game".center(LINE_WIDTH))
 print("=" * LINE_WIDTH)
 
 # Game initialization

@@ -16,6 +16,12 @@
 # Concepts used: lists, sort(), indexing, sum(), len(), min(), max(),
 # count(), list concatenation, f-strings, number formatting (:.2f).
 
+LINE_WIDTH = 50
+
+print("=" * LINE_WIDTH)
+print("Plant Growth Analysis".center(LINE_WIDTH))
+print("=" * LINE_WIDTH)
+
 growth = [3, 1, 2, 4, 2, 3, 2]
 
 growth.sort()

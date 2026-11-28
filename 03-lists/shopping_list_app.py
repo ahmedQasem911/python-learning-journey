@@ -11,6 +11,12 @@
 # 3. Reports the items that were purchased but were not on the list
 #    (impulse buys).
 
+LINE_WIDTH = 50
+
+print("=" * LINE_WIDTH)
+print("Shopping List App".center(LINE_WIDTH))
+print("=" * LINE_WIDTH)
+
 shopping_list = ["potato", "apple", "oil", "milk", "toilet paper"]
 
 shopping_list.append("batteries")

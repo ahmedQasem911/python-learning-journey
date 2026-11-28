@@ -6,7 +6,11 @@
 # or Saturday, no alarm is needed, so nothing is printed.
 # ----------------------------------------------------------
 
-print("------------------------- Smart Alarm -------------------------")
+LINE_WIDTH = 50
+
+print("=" * LINE_WIDTH)
+print("Smart Alarm".center(LINE_WIDTH))
+print("=" * LINE_WIDTH)
 
 tomorrow = input("Enter the day of the week for tomorrow: ").strip().capitalize()
 
